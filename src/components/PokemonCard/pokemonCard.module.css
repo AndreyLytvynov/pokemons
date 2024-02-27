@@ -1,0 +1,40 @@
+.pokemonCard {
+  height: 250px;
+  width: calc((100% - 100px) / 6);
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+
+  background-color: rgb(221, 232, 232);
+  color: black;
+  border-radius: 10px;
+  transition: scale 250ms linear;
+}
+
+.pokemonCard:hover {
+  cursor: pointer;
+  scale: 1.05;
+  transition: scale 250ms linear;
+}
+
+@media (max-width: 1280px) {
+  .pokemonCard {
+    width: calc((100% - 60px) / 4);
+  }
+}
+
+@media (max-width: 768px) {
+  .pokemonCard {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media (max-width: 480px) {
+  .pokemonCard {
+    width: 100%;
+  }
+}

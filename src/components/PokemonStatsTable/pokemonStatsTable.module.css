@@ -1,0 +1,23 @@
+.table {
+  width: 100%;
+
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+}
+
+.table td,
+.table th {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.types {
+  display: flex;
+  gap: 8px;
+}
+
+.types p {
+  margin: 0;
+}

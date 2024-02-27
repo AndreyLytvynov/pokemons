@@ -1,0 +1,113 @@
+.pokemonTypeBtn {
+  display: flex;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.normal {
+  background-color: #e3dfc9;
+}
+
+.fighting {
+  background-color: #a89737;
+}
+
+.flying {
+  background-color: #0094b9;
+}
+
+.poison {
+  background-color: #9c1df0;
+}
+
+.ground {
+  background-color: #6d4510;
+}
+
+.rock {
+  background-color: #cd7605;
+}
+
+.bug {
+  background-color: #009089;
+}
+
+.ghost {
+  background-color: #094986;
+}
+
+.steel {
+  background-color: #5a5a5a;
+}
+
+.fire {
+  background-color: #dd2100;
+}
+
+.water {
+  background-color: #00d3f8;
+}
+
+.grass {
+  background-color: #11c71a;
+}
+
+.electric {
+  background-color: #ffd300;
+  color: #846101;
+}
+
+.psychic {
+  background-color: #9f00ad;
+}
+
+.ice {
+  background-color: #3acbff;
+}
+
+.dragon {
+  background-color: #ff5e00;
+}
+
+.dark {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.fairy {
+  background-color: #f0d;
+}
+
+.unknown {
+  background-color: #797979;
+}
+
+.shadow {
+  background-color: #3f3f3f;
+}
+
+.fighting:hover,
+.flying:hover,
+.poison:hover,
+.ground:hover,
+.rock:hover,
+.bug:hover,
+.ghost:hover,
+.steel:hover,
+.fire:hover,
+.water:hover,
+.grass:hover,
+.electric:hover,
+.psychic:hover,
+.ice:hover,
+.dragon:hover,
+.dark:hover,
+.fairy:hover,
+.unknown:hover,
+.shadow:hover {
+  filter: brightness(1.15);
+  transition: filter 0.3s ease;
+}

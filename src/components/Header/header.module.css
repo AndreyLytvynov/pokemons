@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+
+.headerBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

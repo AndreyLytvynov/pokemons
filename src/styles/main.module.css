@@ -1,0 +1,36 @@
+.pokemonsList {
+  height: 100%;
+  padding: 20px;
+
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.paginationWrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.paginationButton {
+  padding: 8px;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paginationButton:hover {
+  background-color: #d8fffe;
+}
+
+.activeButton {
+  background-color: #d8fffe;
+}
+
+.loadMoreBtn {
+  margin: 0 auto;
+}
